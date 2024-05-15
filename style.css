@@ -1,0 +1,51 @@
+:root {
+  --blue: hsl(14, 45%, 36%);
+  --white: hsl(332, 51%, 32%);
+  --test: hsl(0, 0%, 100%);
+  --fff: hsl(330, 100%, 98%);
+  --vvv: hsl(30, 54%, 90%);
+  --xxx: hsl(30, 18%, 87%);
+  --aaa: hsl(30, 10%, 34%);
+}
+
+/* color : var(--blue); */
+
+body {
+  background-color: var(--vvv);
+}
+
+.aa {
+  background-color: white;
+  width: 720px;
+  margin: auto;
+  padding: 20px;
+  border-radius: 25px;
+}
+
+img {
+  width: 100%;
+  border-radius: 25px;
+}
+
+.pre {
+  background-color: var(--fff);
+}
+
+.table1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.a1 {
+  grid-area: 1/1/1/1;
+}
+
+.a2 {
+  grid-area: 1/2/1/2;
+}
+.brown {
+  color: var(--blue);
+}
+.purple {
+  color: var(--white);
+}
